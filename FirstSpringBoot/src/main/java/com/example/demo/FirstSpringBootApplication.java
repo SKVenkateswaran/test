@@ -14,6 +14,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 public class FirstSpringBootApplication {
 
 	public static void main(String[] args) {
+		// Comments are added for git commit
 		ConfigurableApplicationContext context = SpringApplication.run(FirstSpringBootApplication.class, args);
 		Alien a = context.getBean(Alien.class);
 		
